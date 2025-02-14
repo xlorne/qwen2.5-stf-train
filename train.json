@@ -1,0 +1,5002 @@
+[
+  {
+    "instruction": "克勤的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点Leon的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我要听天后",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "成龙的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "想听Jay唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来点谭咏麟的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我要听宗盛",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放Leon的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "国际章的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "放一首阿信的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "五月天的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放一首老李的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "龙哥演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放一下郭富城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "星爷演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "华仔的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点王菲的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "播放丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "放文蔚的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放杰伦的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "迅仔的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "放李宗盛的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "帮我放阿伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "显示龙哥的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "大哥演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "帮我放菲姐的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "音量小点声",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "我想听黎明哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "搜索周星驰的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "我想听宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放Jay的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "想听周杰伦唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "想听邓丽君唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "帮我放宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来几首李克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "搜索国际章的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "来点菲姐的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "声音调高一些",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "给我放宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来几首Jay的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "Jay的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "给我放城城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点莫莫的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来几首Leon的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "来点Beyond的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来几首俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "调低音量",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "来点哥哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放李克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "帮我放beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "找一下大哥的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "我想听迅仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放张惠妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放一下周杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "麟仔的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "麟仔的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来点华仔的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点舞王的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "星爷的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放一下Jay的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "音量大点声",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "来几首beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点五月天的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点A-Mei的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "给我看看武打巨星演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "音量增大",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "放一首邓老师的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "给我章子怡的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "搜索大哥的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放一下迅仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放一下俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来几首JJ的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "阿妹的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我想听老李的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "章子怡演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "帮我查周润发的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "找一下周星驰的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "搜索章子怡的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放一下张学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "来点克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "JJ的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "播放勤哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "我要听Leon",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "帮我放迅仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "我想听Beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "Leslie的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放老李的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "放张国荣的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听周杰伦",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我要听莫莫",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来点林俊杰的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "帮我放黎明哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "李宗盛的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放莫文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放老李的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "调大声音",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "来点Leon的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "大哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "想听华仔唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "找一下国际章的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "我要听刘德华",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "帮我放李克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点阿伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放孙老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "列出周润发的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "给我放黎明哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "玛莎的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我周星驰的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点刘德华的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放一首刘德华的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "播放华仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "张国荣的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "李连杰演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "帮我查星爷的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "想听刘德华唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "陈奕迅的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "放华仔的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点陈奕迅的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放黎明的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "来几首Eason的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放邓老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "武打巨星参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "来点beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "我要听文蔚",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "歌神的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "帮我查大哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "来点周杰伦的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来点勤哥的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点华仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "杰伦的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放歌神的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放邓丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "学友的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "搜索星爷的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "给我李连杰的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "喜剧之王演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放邓老师的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听迅仔",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放一下燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放菲姐的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "列出龙哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "来点孙燕姿的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "帮我放刘德华的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "帮我放Leslie的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "章子怡演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放一下李宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "喜剧之王的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "搜索周润发的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "播放Leslie的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "给我放黄家驹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点张惠妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "声音小一点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "播放一下孙老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来点歌神的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放阿信的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点麟仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放一下文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放李克勤的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放张惠妹的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "帮我放五月天的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "播放华仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "播放郭富城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我放A-Mei的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放麟仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来几首宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我要听黄家驹",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来几首克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放宗盛的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放孙燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放阿信的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我放老李的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放A-Mei的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "放城城的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "大哥演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "玛莎的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "想听李宗盛唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我想听谭咏麟的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "给我星爷的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "喜剧之王参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "给我看看龙哥演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放黎明哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我想听孙燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "帮我放孙燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "我要听阿伦",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "邓老师的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "Eason的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放玛莎的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放一首阿妹的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "给我放刘德华的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点天后的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "宗盛的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我想听刘德华的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我要听A-Mei",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "周杰伦的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放一下克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点丽君的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来点林俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点Eason的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放一下孙燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "放beyond的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "放丽君的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放华哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "播放一下张惠妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放谭咏麟的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "A-Mei的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "想听哥哥唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "放一首Beyond的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "我要听燕姿",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "张国荣的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放孙老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放一下歌神的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放哥哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放五月天的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "beyond的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "迅仔的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "张惠妹的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "帮我查喜剧之王的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "林俊杰的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "武打巨星演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "想听孙燕姿唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "列出喜剧之王的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "帮我放学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放莫莫的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "我想听阿信的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放一首宗盛的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来几首丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "帮我放俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "帮我放华哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "帮我放陈奕迅的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "放一首文蔚的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来点黎明哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放黄家驹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "章子怡演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "俊杰的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "阿信的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "我要听麟仔",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "放一首孙老师的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放麟仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "放阿信的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "大哥参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "给我放舞王的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "周星驰演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "显示国际章的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "黄家驹的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "播放黄家驹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "周星驰演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来几首谭咏麟的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来点A-Mei的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我想听麟仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放一下华哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来几首阿妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "调高音量",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "来点杰伦的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "找一下喜剧之王的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "勤哥的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "帮我放张惠妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "来几首林俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "想听阿信唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放歌神的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "歌神的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "星爷演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "我想听阿妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放A-Mei的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "声音大一点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "给我放阿妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "想听张惠妹唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点张国荣的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "列出成龙的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "勤哥的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "给我放菲姐的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "华哥的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "邓老师的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放一下黄家驹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "想听五月天唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我放天后的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "武打巨星演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "来点邓丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放刘德华的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "帮我放勤哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "我要听孙燕姿",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来几首张惠妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "放一首玛莎的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "王菲的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "帮我放JJ的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放一首张学友的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "想听燕姿唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "想听学友唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "邓丽君的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放一下城城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "俊杰的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来几首黎明的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放一下beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "黄家驹的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "播放一下五月天的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点张国荣的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "邓丽君的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放一下华仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放麟仔的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来几首Leslie的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放阿妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我要听Eason",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "帮我放周杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "声音调低一些",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "来几首黄家驹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "放一首邓丽君的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听黎明哥",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "音量调大声点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "想听宗盛唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "林俊杰的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来几首菲姐的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "我想听玛莎的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "播放克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "声音放小点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "孙燕姿的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "我想听勤哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放一下Leon的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "给我放莫莫的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来点迅仔的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来点Leslie的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来点老李的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "放孙燕姿的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放阿伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "放天后的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "播放张学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "我想听王菲的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "搜索龙哥的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "来几首华仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放一首陈奕迅的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "我想听黄家驹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "想听阿妹唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "想听李克勤唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放一下阿信的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点玛莎的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放一首周杰伦的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我想听邓丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来点张惠妹的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "给我放郭富城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放张国荣的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来几首杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放Leslie的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放一下邓丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "找一下武打巨星的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "黎明哥的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "喜剧之王演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "星爷主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放一首莫莫的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "我想听张惠妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放张学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "想听克勤唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "菲姐的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "列出大哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "章子怡演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "大哥主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放菲姐的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点Jay的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我要听李宗盛",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "武打巨星的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "给我国际章的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "给我放阿伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放一下莫文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "李连杰演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放一下王菲的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "放一首克勤的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点黄家驹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "找一下龙哥的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放李克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点孙燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放一下林俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "给我大哥的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "帮我放莫文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放Leon的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "克勤的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放一首林俊杰的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来几首阿信的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "显示星爷的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "想听Leon唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放一首菲姐的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "想听黎明唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我要听老李",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "放一首王菲的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "帮我放孙老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来点迅仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "帮我放林俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点克勤的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "把声音调小",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "我要听丽君",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听王菲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点阿伦的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "放一首Jay的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "帮我放王菲的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "放黎明哥的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放Beyond的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来几首玛莎的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "城城的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "放郭富城的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "beyond的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "郭富城的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "查询星爷的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点勤哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放一首麟仔的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "放一首孙燕姿的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放哥哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "想听歌神唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "放一首华仔的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点郭富城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我放莫文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放一首张惠妹的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "想听莫莫唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "我想听杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来几首周杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "把音量调高",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "来点城城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "Leslie的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来点宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我要听哥哥",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放李宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "帮我放郭富城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放一下黎明的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放一首黄家驹的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "龙哥主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "周润发演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "我想听李宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "想听A-Mei唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "给我放张国荣的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "放一首华哥的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "孙燕姿的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "想听黎明哥唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "把音量调低",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "章子怡参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "显示武打巨星的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "想听张国荣唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来点JJ的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "李连杰演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "把声音调大",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "来几首A-Mei的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "来点莫莫的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放一下学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "来几首李宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来点黎明哥的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "燕姿的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放一下丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来几首麟仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "帮我放天后的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来几首燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放邓老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我想听莫莫的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来点俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "周润发演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "来点燕姿的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "谭咏麟的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听天后的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "武打巨星演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "大哥演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "想听阿伦唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "给我看看章子怡演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "给我放歌神的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "我要听菲姐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来几首勤哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "周杰伦的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "放阿妹的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "给我放五月天的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "我想听学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "查询周润发的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "帮我放老李的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来点五月天的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点周杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "放一首Eason的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "想听孙老师唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来几首老李的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来点华哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "想听城城唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我想听华仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "周星驰演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "显示大哥的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "谭咏麟的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听李克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "来点文蔚的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "李连杰主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "列出武打巨星的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "给我看看国际章演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "显示周星驰的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放邓丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放Leon的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "给我放杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "给我放周杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放一下陈奕迅的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我放燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放一下李克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "章子怡主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "给我放邓丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "帮我放Leon的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "显示李连杰的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "搜索李连杰的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放五月天的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放舞王的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点Leslie的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "舞王的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我放迅仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "来几首刘德华的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放一首学友的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "放Leslie的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放李宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放一下黎明哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "列出国际章的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "我要听学友",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放陈奕迅的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "喜剧之王演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放华哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点郭富城的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点俊杰的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "我要听林俊杰",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "帮我放Eason的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "黎明哥的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "帮我查章子怡的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "帮我放张国荣的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "我想听哥哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来点哥哥的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "放老李的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放郭富城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放麟仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来几首孙老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "帮我查国际章的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放JJ的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点莫文蔚的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放一首舞王的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "帮我放莫莫的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "给我放Beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "给我放Leslie的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放Eason的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放周杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我想听JJ的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放迅仔的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我放孙老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来几首文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "喜剧之王演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放一首JJ的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "哥哥的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "想听beyond唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点刘德华的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "帮我放文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "想听林俊杰唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放勤哥的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "星爷演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点Beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "列出星爷的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放一首俊杰的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放一首燕姿的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放JJ的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "播放一下哥哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放勤哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "给我放勤哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "A-Mei的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我要听勤哥",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "想听Eason唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "列出李连杰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "放一首Leon的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "来点舞王的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "喜剧之王主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "Eason的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "想听黄家驹唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "播放天后的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "播放迅仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "想听菲姐唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "张学友的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "显示喜剧之王的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "周星驰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点阿妹的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "Jay的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "阿信的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "放一首丽君的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "想听谭咏麟唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "给我看看喜剧之王演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来几首王菲的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点麟仔的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "刘德华的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听城城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点歌神的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "帮我查李连杰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放一下莫莫的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放舞王的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我想听邓老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来点城城的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "来几首孙燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "Beyond的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "郭富城的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我成龙的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放一下JJ的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "我想听华哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "帮我放邓老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放天后的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "放王菲的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点阿信的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我看看星爷演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "给我看看周润发演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "帮我放燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "我想听菲姐的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "帮我查武打巨星的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "放一首五月天的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "搜索武打巨星的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "给我看看李连杰演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "周润发主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "播放陈奕迅的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我放李宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我要听beyond",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "放一首李克勤的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "帮我放黎明的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "城城的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放Jay的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "放邓丽君的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来点天后的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "章子怡的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "龙哥演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "显示成龙的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "来点李宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "播放林俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "想听老李唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我想听燕姿的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放张国荣的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "我要听阿信",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "播放一下Leslie的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来几首莫文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来几首城城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来几首舞王的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我想听舞王的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "放一首天后的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点张学友的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "放一首莫文蔚的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "给我看看成龙演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "放莫莫的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放一首李宗盛的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "放周杰伦的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "想听玛莎唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "国际章演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "想听邓老师唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "帮我放邓丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "查询成龙的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "搜索成龙的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "我想听Leon的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "查询章子怡的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "我要听阿妹",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放林俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "我要听舞王",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我要听Beyond",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "想听天后唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "我想听黎明的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "来点Jay的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我要听张惠妹",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "放林俊杰的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "菲姐的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "国际章演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放城城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点黎明的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放Jay的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放一下天后的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "国际章主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "放克勤的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "查询喜剧之王的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "我想听阿伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放莫文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放Beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来几首邓老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "查询发哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "给我放俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来几首张国荣的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "发哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "刘德华的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "查询龙哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "给我放张惠妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "帮我放歌神的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "查询武打巨星的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "帮我放Jay的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来几首阿伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "调小声音",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "放学友的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放Eason的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "武打巨星演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放一下阿伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来点黎明的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "来点孙老师的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "来点学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "想听俊杰唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放陈奕迅的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我放陈奕迅的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我放学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "国际章演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我放张学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "莫文蔚的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来几首张学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "查询国际章的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "来点JJ的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点王菲的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来几首Beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点学友的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "给我放丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "Leon的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "帮我放谭咏麟的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听Leslie的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "国际章参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "想听郭富城唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "帮我放阿信的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "找一下章子怡的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "播放莫莫的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来几首五月天的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "播放一下谭咏麟的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "帮我放A-Mei的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "放一首城城的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点宗盛的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "周润发的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "来几首郭富城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点丽君的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "来几首邓丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "放一首杰伦的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "老李的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "放莫文蔚的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "发哥演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "来点李克勤的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "大哥演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "莫文蔚的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放JJ的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "我要听陈奕迅",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "来点beyond的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "国际章演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "帮我放哥哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "成龙参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "给我放玛莎的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我放beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "帮我查周星驰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放A-Mei的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我想听歌神的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "给我放Leon的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放一首黎明的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "给我放李克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "显示周润发的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "李连杰参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "来点玛莎的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "想听Leslie唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放一下阿妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "我要听张国荣",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "播放哥哥的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "放俊杰的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "周星驰主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放谭咏麟的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "帮我放黄家驹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "JJ的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "黎明的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "给我看看发哥演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "周星驰演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放一下玛莎的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "音量减小",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "给我看看大哥演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "放张学友的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "播放谭咏麟的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "来点李宗盛的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "给我放黎明的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放一下麟仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我想听陈奕迅的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "查询大哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "给我放Jay的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "帮我放玛莎的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "想听莫文蔚唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "帮我放Beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点菲姐的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来几首莫莫的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "龙哥演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "帮我放城城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "帮我放舞王的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "帮我放阿妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "找一下周润发的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "成龙主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "阿妹的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放一下邓老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放一下A-Mei的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "李连杰演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放一下老李的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我想听林俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "文蔚的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "丽君的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "龙哥演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "放华哥的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我要听玛莎",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "天后的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "Leon的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "放阿伦的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "想听陈奕迅唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "华仔的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放一首beyond的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "给我放文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "播放阿妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "帮我放张学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "我要听华哥",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听俊杰的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "我要听Leslie",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "王菲的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "列出章子怡的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "找一下李连杰的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "李克勤的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "帮我放麟仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我要听俊杰",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点邓丽君的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听莫文蔚",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放五月天的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "我要听歌神",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "放黎明的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放王菲的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "播放迅仔的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "来点黄家驹的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "播放邓老师的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "武打巨星主演的电影有哪些",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "播放阿伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "放燕姿的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "莫莫的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放一首郭富城的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放一下勤哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放一首张国荣的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "查询周星驰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "给我周润发的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "来点老李的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "周润发演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "丽君的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "播放歌神的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "给我放华仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "学友的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "放一首勤哥的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放一首Leslie的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "想听勤哥唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放玛莎的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我放王菲的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "给我看看周星驰演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点Eason的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "Beyond的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "帮我放丽君的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "放玛莎的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "来点李克勤的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放一下杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "来点莫文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放一首哥哥的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "我想听Jay的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "帮我查龙哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "给我喜剧之王的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点谭咏麟的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "帮我放李宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来几首天后的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "我要听黎明",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我想听郭富城的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我要听Jay",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "音量调小声点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"decrease\"}"
+  },
+  {
+    "instruction": "成龙演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "我要听邓丽君",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "声音放大点",
+    "input": "",
+    "output": "{\"action\": \"adjust_volume\", \"level\": \"increase\"}"
+  },
+  {
+    "instruction": "天后的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来点阿信的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "播放一下张国荣的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "我想听A-Mei的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放张惠妹的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放黎明哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放城城的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我放Eason的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "想听迅仔唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "来几首哥哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "周润发演了什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "帮我放杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "找一下星爷的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "放黄家驹的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "哥哥的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "周润发参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "放一首歌神的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "来点阿妹的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放Beyond的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "来点华哥的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "想听张学友唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "成龙演过什么电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放一下Eason的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "我要听城城",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "给我放华哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "舞王的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来几首陈奕迅的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "放菲姐的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "来几首学友的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "张惠妹的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "播放杰伦的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "播放刘德华的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听孙老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放黎明的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "播放一下菲姐的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "宗盛的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "阿伦的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "想听JJ唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "播放一下宗盛的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "来点陈奕迅的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "播放宗盛的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "黎明的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我要听张学友",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "星爷演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "我要听五月天",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "想听麟仔唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "周星驰参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "给我放林俊杰的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "播放文蔚的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "来几首歌神的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "显示章子怡的电影列表",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"章子怡\"}"
+  },
+  {
+    "instruction": "想听王菲唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "想听华哥唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "想听文蔚唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "杰伦的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "我要听JJ",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "放Eason的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "给我龙哥的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "龙哥参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "放一首A-Mei的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张惠妹\"}"
+  },
+  {
+    "instruction": "燕姿的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "我想听张国荣的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "我要听谭咏麟",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "我要听华仔",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "成龙演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "成龙演过哪些电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "五月天的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "给我放克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放一首迅仔的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "列出周星驰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "想听舞王唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "我想听张学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "阿伦的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "给我放谭咏麟的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放一下刘德华的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "放一首谭咏麟的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "播放孙燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "孙老师的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "播放一下舞王的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来几首迅仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "来几首黎明哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "我要听克勤",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "李克勤的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "给我放孙燕姿的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "想听杰伦唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "搜索喜剧之王的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "播放阿信的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "想听丽君唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "想听Beyond唱的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "我要听郭富城",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "来点孙老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "老李的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我要听杰伦",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "放一首黎明哥的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"黎明\"}"
+  },
+  {
+    "instruction": "陈奕迅的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "孙老师的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "放JJ的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"林俊杰\"}"
+  },
+  {
+    "instruction": "来点邓老师的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "帮我放克勤的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "播放舞王的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"郭富城\"}"
+  },
+  {
+    "instruction": "播放周杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "李宗盛的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李宗盛\"}"
+  },
+  {
+    "instruction": "我想听Eason的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"陈奕迅\"}"
+  },
+  {
+    "instruction": "我想听五月天的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"五月天\"}"
+  },
+  {
+    "instruction": "发哥演过的电影有哪些？",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周润发\"}"
+  },
+  {
+    "instruction": "我要听邓老师",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "找一下成龙的电影作品",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放一下Beyond的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"Beyond\"}"
+  },
+  {
+    "instruction": "华哥的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "李连杰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "龙哥的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "放哥哥的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张国荣\"}"
+  },
+  {
+    "instruction": "来几首华哥的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "我想听周杰伦的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"周杰伦\"}"
+  },
+  {
+    "instruction": "莫莫的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "放孙老师的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "给我武打巨星的电影清单",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "帮我放华仔的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "来点邓老师的",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"邓丽君\"}"
+  },
+  {
+    "instruction": "我要听孙老师",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"孙燕姿\"}"
+  },
+  {
+    "instruction": "我要听李克勤",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"李克勤\"}"
+  },
+  {
+    "instruction": "放刘德华的歌给我听",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"刘德华\"}"
+  },
+  {
+    "instruction": "查询李连杰的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"李连杰\"}"
+  },
+  {
+    "instruction": "放一首阿伦的歌曲",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"谭咏麟\"}"
+  },
+  {
+    "instruction": "帮我查成龙的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"成龙\"}"
+  },
+  {
+    "instruction": "播放王菲的歌",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"王菲\"}"
+  },
+  {
+    "instruction": "我想听莫文蔚的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "文蔚的音乐来一首",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"莫文蔚\"}"
+  },
+  {
+    "instruction": "星爷参演的电影",
+    "input": "",
+    "output": "{\"action\": \"find_movies\", \"actor\": \"周星驰\"}"
+  },
+  {
+    "instruction": "来点张学友的音乐",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  },
+  {
+    "instruction": "张学友的歌放一下",
+    "input": "",
+    "output": "{\"action\": \"play_music\", \"artist\": \"张学友\"}"
+  }
+]
