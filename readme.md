@@ -19,6 +19,44 @@ cd llama.cpp
 python convert_hf_to_gguf.py /Users/lorne/developer/github/python/qwen2.5-stf/qwen_sft_merged --outfile qwen2.5-0.5B-q8_0.gguf --outtype q8_0
 ```
 
+## Load model to ollama
+* Edit model ModelFile https://github.com/ollama/ollama
+```
+cat ./tv-model-qwen2.5-0.5b.modelfile
+```
+* load local modelfile to ollama
+```
+ollama create tv-model -f tv-model-qwen2.5-0.5b.modelfile
+```
+
+* show ollama model
+```
+ollama list
+```
+
+* test model with curl
+```
+curl --location 'http://localhost:11434/v1/chat/completions' \
+--header 'Content-Type: application/json' \
+--data '{
+    "messages": [         
+        {
+            "content": [
+                {
+                    "type": "text",
+                    "text": "播放一下周杰伦的音乐"
+                }
+            ],
+            "role": "user"
+        }
+    ],
+    "model": "tv-model:latest",
+    "stream": false,
+    "temperature": 0.1
+}'
+```
+
+
 ## FQA
 1. download huggingface model fail
 ```bash
