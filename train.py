@@ -15,7 +15,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 
 
-def verify_dataset(file_path="train.json"):
+def verify_dataset(file_path="data.json"):
     """验证数据集格式并打印示例"""
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -27,7 +27,7 @@ def verify_dataset(file_path="train.json"):
     return data
 
 
-def prepare_dataset(tokenizer, data_file="train.json"):
+def prepare_dataset(tokenizer, data_file="data.json"):
     """准备训练数据集"""
     dataset = load_dataset("json", data_files={"train": data_file})
 
@@ -93,7 +93,7 @@ def main():
     training_args = TrainingArguments(
         output_dir="./qwen_sft",
         per_device_train_batch_size=2,  # 减小批量大小
-        gradient_accumulation_steps=16,  # 增加梯度累积步数
+        gradient_accumulation_steps=8,  # 增加梯度累积步数
         num_train_epochs=3,
         learning_rate=5e-5,
         lr_scheduler_type="cosine",  # 使用 cosine 学习率调度器

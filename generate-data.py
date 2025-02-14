@@ -203,7 +203,7 @@ def generate_unique_dataset(size=1000):
 dataset = generate_unique_dataset(1000)
 print(json.dumps(dataset, ensure_ascii=False, indent=2))
 
-outfile = 'train.json'
+outfile = 'data.json'
 with open(outfile, 'w', encoding='utf-8') as f:
     json.dump(dataset, f, ensure_ascii=False, indent=2)
 print(f"Saved dataset to {outfile}")
