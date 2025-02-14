@@ -152,8 +152,8 @@ def main():
     print("\nTesting with all questions:")
     for question in test_questions:
         print(f"\nQ: {question}")
-        prompt = f"<|im_start|>system\n你是一个电视的控制器，识别用户的行为响应控制指令.<|im_end|>\n<|im_start|>user\n{question}<|im_end|>\n<|im_start|>assistant\n"
-        result = pipe(prompt, max_new_tokens=512, top_p=0.7, temperature=0.95)
+        prompt = f"<|im_start|>user\n{question}<|im_end|>\n<|im_start|>assistant\n"
+        result = pipe(prompt, max_new_tokens=512, top_p=0.8, temperature=0.8)
         print(f"A: {result[0]['generated_text']}")
 
 
