@@ -3,7 +3,20 @@
 ## Install dependencies
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-pip install modelscope accelerate transformers peft datasets addict
+pip install modelscope accelerate transformers peft datasets addict sentencepiece
+```
+
+## Export GGUF model
+* merge stf model and qwen model, and save it to qwen_sft_merged 
+```
+python marge.py
+```
+* install llama.cpp on your machine, download https://github.com/ggerganov/llama.cpp/releases binary and add it to your PATH
+* clone llama.cpp code `git clone git@github.com:ggerganov/llama.cpp.git`
+* cd llama.cpp and convert model 
+```
+cd llama.cpp
+python convert_hf_to_gguf.py /Users/lorne/developer/github/python/qwen2.5-stf/qwen_sft_merged  --outfile model.gguf
 ```
 
 ## FQA
