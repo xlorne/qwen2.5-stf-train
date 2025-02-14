@@ -52,7 +52,7 @@ def main():
     # 测试模型
     print("\nTesting fine-tuned model...")
 
-    model_path = "/Users/lorne/developer/github/LLaMA-Factory/models/"
+    model_path = "./qwen_sft_model"
 
     model = QwenRunner(
         model_path,
