@@ -16,7 +16,7 @@ python marge.py
 * cd llama.cpp and convert model 
 ```
 cd llama.cpp
-python convert_hf_to_gguf.py /Users/lorne/developer/github/python/qwen2.5-stf/qwen_sft_merged  --outfile model.gguf
+python convert_hf_to_gguf.py /Users/lorne/developer/github/python/qwen2.5-stf/qwen_sft_merged --outfile qwen2.5-0.5B-q8_0.gguf --outtype q8_0
 ```
 
 ## FQA
