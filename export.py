@@ -13,4 +13,4 @@ quantized_model = torch.quantization.quantize_dynamic(
 )
 
 
-quantized_model.save_pretrained('./qwen2.5-0.5B-int8')
+quantized_model.save_pretrained('./qwen2.5_0.5B_INT8')
