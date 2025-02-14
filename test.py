@@ -9,11 +9,12 @@ os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 
 device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 
+
 def main():
     # 测试模型
     print("\nTesting fine-tuned model...")
     test_model = AutoModelForCausalLM.from_pretrained(
-          "./qwen_sft_model",
+        "./qwen_sft_model",
         device_map={"": device},
         trust_remote_code=True
     )
@@ -31,14 +32,13 @@ def main():
         "我想要听一首王力宏的歌曲？",
     ]
 
-
     pipe = pipeline("text-generation", model=test_model, tokenizer=test_tokenizer)
 
     print("\nTesting with all questions:")
     for question in test_questions:
         print(f"\nQ: {question}")
         prompt = f"<|im_start|>system\n你是一个电视的控制器，识别用户的行为响应控制指令.<|im_end|>\n<|im_start|>user\n{question}<|im_end|>\n<|im_start|>assistant\n"
-        result = pipe(prompt, max_new_tokens=100)
+        result = pipe(prompt, max_new_tokens=512, top_p=0.7, temperature=0.95)
         print(f"A: {result[0]['generated_text']}")
 
 

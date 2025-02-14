@@ -1,2 +1,3 @@
 import torch
-print(torch.backends.mps.is_available())  # True 说明 MPS 可用
+print('msp device:',torch.backends.mps.is_available())
+print('cuda device:',torch.cuda.is_available())

@@ -63,8 +63,7 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 
 
-    # device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
-    device = "cpu"
+    device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
     print(f"Using device: {device}")
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -94,7 +93,7 @@ def main():
     training_args = TrainingArguments(
         output_dir="./qwen_sft",
         per_device_train_batch_size=2,  # 减小批量大小
-        gradient_accumulation_steps=8,  # 增加梯度累积步数
+        gradient_accumulation_steps=16,  # 增加梯度累积步数
         num_train_epochs=3,
         learning_rate=5e-5,
         lr_scheduler_type="cosine",  # 使用 cosine 学习率调度器
@@ -154,7 +153,7 @@ def main():
     for question in test_questions:
         print(f"\nQ: {question}")
         prompt = f"<|im_start|>system\n你是一个电视的控制器，识别用户的行为响应控制指令.<|im_end|>\n<|im_start|>user\n{question}<|im_end|>\n<|im_start|>assistant\n"
-        result = pipe(prompt, max_new_tokens=100)
+        result = pipe(prompt, max_new_tokens=512, top_p=0.7, temperature=0.95)
         print(f"A: {result[0]['generated_text']}")
 
 
