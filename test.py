@@ -1,4 +1,5 @@
 import torch
+from datetime import datetime
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
 from transformers.trainer_utils import set_seed
@@ -73,7 +74,10 @@ def main():
     print("\nTesting with all questions:")
     for question in test_questions:
         print(f"\nQ: {question}")
+        t1 = datetime.now().timestamp() * 1000
         print(f"A: {model.run(question)}")
+        t2 = datetime.now().timestamp() * 1000
+        print(f"Time: {t2 - t1:.2f}ms")
 
 
 if __name__ == "__main__":
