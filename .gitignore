@@ -1,1 +1,6 @@
 .idea
+qwen_sft_bookmodel
+qwen_sft_merged
+qwen_sft_model
+qwen_sft_tvmodel
+output
