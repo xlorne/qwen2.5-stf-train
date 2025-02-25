@@ -1,0 +1,14 @@
+[Unit]
+Description=Open-WebUI Service
+After=network-online.target
+
+[Service]
+Restart=always
+RestartSec=3
+Environment="HF_ENDPOINT=https://hf-mirror.com"
+WorkingDirectory=/root/open-webui
+ExecStart=sh /root/open-webui/open-webui.sh
+Environment="PATH=/root/miniconda3/envs/open-webui/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+[Install]
+WantedBy=multi-user.target
