@@ -24,6 +24,8 @@ class DeepSeekR1Runner:
             trust_remote_code=True
         )
 
+        print("max token size:", self.model.config.max_position_embeddings)
+
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_path,
             trust_remote_code=True
@@ -54,7 +56,7 @@ def main():
     # 测试模型
     print("\nTesting fine-tuned model...")
 
-    model_path = "./deepseek_r1_model"
+    model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 
     model = DeepSeekR1Runner(
         model_path,
